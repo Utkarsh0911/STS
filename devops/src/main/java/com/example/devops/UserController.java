@@ -20,6 +20,7 @@ public class UserController {
 		user.setName("Utkarsh Sharma");
 		user.setPermanentAddress("Meerut");
 		user.setSkills("Java/Python");
+		user.setGender("male");
 		return user;
 	}
 
