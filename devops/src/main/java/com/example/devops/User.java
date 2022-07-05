@@ -12,6 +12,7 @@ public class User {
 	private String gender;
 	private String fatherName;
 	private String designation;
+	private String skills;
 	public int getId() {
 		return id;
 	}
@@ -72,5 +73,13 @@ public class User {
 	public void setDesignation(String designation) {
 		this.designation = designation;
 	}
+	public String getSkills() {
+		return skills;
+	}
+	public void setSkills(String skills) {
+		this.skills = skills;
+	}
+	
+	
 	
 }

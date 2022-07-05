@@ -19,6 +19,7 @@ public class UserController {
 		user.setLocation("Noida STP");
 		user.setName("Utkarsh Sharma");
 		user.setPermanentAddress("Meerut");
+		user.setSkills("Java/Python");
 		return user;
 	}
 
